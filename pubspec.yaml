@@ -1,0 +1,25 @@
+name: my_chat_app
+description: Sample chat app using Supabase and Flutter
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  supabase_flutter: ^2.0.0
+  flutter_bloc: ^8.0.1
+  timeago: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.4
+
+flutter:
+  uses-material-design: true
